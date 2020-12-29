@@ -310,9 +310,9 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "从来没有真正的绝境, 只有心灵的迷途",
+                                "欢迎来到罗CC的博客~",
                             
-                                "Never really desperate, only the lost of the soul",
+                                "Welcome to Luo CC&#39;s blog~",
                             
                         ],
                         startDelay: 300,
@@ -331,7 +331,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getMinutes() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -365,7 +365,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2631266845" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2631266845" data-position="top" data-delay="50">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2631266845&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2631266845" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
@@ -694,7 +694,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2631266845" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2631266845" data-position="top" data-delay="50">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2631266845&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2631266845" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
@@ -834,6 +834,13 @@ $(function () {
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
+	<script type="text/javascript">
+	    var OriginTitile=document.title,st;
+		document.addEventListener("visibilitychange",function(){
+	        document.hidden?(document.title="ヽ(●-`Д´-)ノ客官别走呀~",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ罗CC欢迎您！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+	    })
+	</script>
+	
     <!-- Baidu Analytics -->
 
     <!-- Baidu Push -->
