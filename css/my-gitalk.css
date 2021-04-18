@@ -186,7 +186,6 @@ table tr:nth-child(2n), thead {
 .markdown-body pre {
     padding: 1.2em;
     margin: .5em 0;
-    background: #272822;
     overflow: auto;
     border-radius: 0.3em;
     tab-size: 4;
@@ -203,7 +202,6 @@ table tr:nth-child(2n), thead {
 .markdown-body pre code {
     padding: 0;
     color: #e8eaf6;
-    background-color: #272822;
 }
 
 .markdown-body pre[class*="language-"] {
