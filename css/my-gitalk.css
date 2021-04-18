@@ -194,13 +194,12 @@ table tr:nth-child(2n), thead {
     padding: 1px 1px;
     font-size: 0.92rem;
     color: #e96900;
-    background-color: #f8f8f8;
     border-radius: 2px;
 }
 
 .markdown-body pre code {
     padding: 0;
-    color: #e8eaf6;
+    color: #000000;
 }
 
 .markdown-body pre[class*="language-"] {
@@ -210,7 +209,7 @@ table tr:nth-child(2n), thead {
 
 .markdown-body code[class*="language-"],
 pre[class*="language-"] {
-    color: #e8eaf6;
+    color: #000000;
 }
 
 .markdown-body [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
