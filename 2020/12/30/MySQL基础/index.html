@@ -566,7 +566,42 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="MYSQL数据库基础"><a href="#MYSQL数据库基础" class="headerlink" title="MYSQL数据库基础"></a>MYSQL数据库基础</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">一、为什么要学习数据库</span><br><span class="line">二、数据库的相关概念      </span><br><span class="line">	DBMS、DB、SQL</span><br><span class="line">三、数据库存储数据的特点</span><br><span class="line">四、初始MySQL</span><br><span class="line">	MySQL产品的介绍        </span><br><span class="line">	MySQL产品的安装          ★        </span><br><span class="line">	MySQL服务的启动和停止     ★</span><br><span class="line">	MySQL服务的登录和退出     ★      </span><br><span class="line">	MySQL的常见命令和语法规范      </span><br><span class="line">五、DQL语言的学习   ★              </span><br><span class="line">	基础查询        ★             </span><br><span class="line">	条件查询  	   ★			</span><br><span class="line">	排序查询  	   ★				</span><br><span class="line">	常见函数        ★               </span><br><span class="line">	分组函数        ★              </span><br><span class="line">	分组查询		   ★			</span><br><span class="line">	连接查询	 	★			</span><br><span class="line">	子查询       √                  </span><br><span class="line">	分页查询       ★              </span><br><span class="line">	union联合查询	√			</span><br><span class="line">	</span><br><span class="line">六、DML语言的学习    ★             </span><br><span class="line">	插入语句						</span><br><span class="line">	修改语句						</span><br><span class="line">	删除语句						</span><br><span class="line">七、DDL语言的学习  </span><br><span class="line">	库和表的管理	 √				</span><br><span class="line">	常见数据类型介绍  √          </span><br><span class="line">	常见约束  	  √			</span><br><span class="line">八、TCL语言的学习</span><br><span class="line">	事务和事务处理                 </span><br><span class="line">九、视图的讲解           √</span><br><span class="line">十、变量                      </span><br><span class="line">十一、存储过程和函数   </span><br><span class="line">十二、流程控制结构</span><br></pre></td></tr></table></figure>
+                <h2 id="MYSQL数据库基础"><a href="#MYSQL数据库基础" class="headerlink" title="MYSQL数据库基础"></a>MYSQL数据库基础</h2><pre><code>一、为什么要学习数据库
+二、数据库的相关概念      
+    DBMS、DB、SQL
+三、数据库存储数据的特点
+四、初始MySQL
+    MySQL产品的介绍        
+    MySQL产品的安装          ★        
+    MySQL服务的启动和停止     ★
+    MySQL服务的登录和退出     ★      
+    MySQL的常见命令和语法规范      
+五、DQL语言的学习   ★              
+    基础查询        ★             
+    条件查询         ★            
+    排序查询         ★                
+    常见函数        ★               
+    分组函数        ★              
+    分组查询           ★            
+    连接查询         ★            
+    子查询       √                  
+    分页查询       ★              
+    union联合查询    √            
+
+六、DML语言的学习    ★             
+    插入语句                        
+    修改语句                        
+    删除语句                        
+七、DDL语言的学习  
+    库和表的管理     √                
+    常见数据类型介绍  √          
+    常见约束        √            
+八、TCL语言的学习
+    事务和事务处理                 
+九、视图的讲解           √
+十、变量                      
+十一、存储过程和函数   
+十二、流程控制结构</code></pre>
 <h2 id="数据库的好处"><a href="#数据库的好处" class="headerlink" title="数据库的好处"></a>数据库的好处</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.持久化数据到本地</span><br><span class="line">2.可以实现结构化查询，方便管理</span><br></pre></td></tr></table></figure>
 
 
@@ -1428,13 +1463,13 @@ leave类似于java中的break语句，跳出所在循环！！！</code></pre>
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/04/18/Cookie&Session%E7%AC%94%E8%AE%B0/">
+                <a href="/2021/04/18/JDBC%E8%BF%9E%E6%8E%A5%E6%B1%A0&JDBCTemplate%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Cookie&amp;Session笔记">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="JDBC连接池&amp;JDBCTemplate课堂笔记">
                         
-                        <span class="card-title">Cookie&amp;Session笔记</span>
+                        <span class="card-title">JDBC连接池&amp;JDBCTemplate课堂笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1462,8 +1497,8 @@ leave类似于java中的break语句，跳出所在循环！！！</code></pre>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Cookie-Session/">
-                        <span class="chip bg-color">Cookie&amp;Session</span>
+                    <a href="/tags/JDBC%E8%BF%9E%E6%8E%A5%E6%B1%A0-JDBCTemplate/">
+                        <span class="chip bg-color">JDBC连接池&amp;JDBCTemplate</span>
                     </a>
                     
                 </div>
