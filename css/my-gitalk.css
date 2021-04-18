@@ -205,6 +205,7 @@ table tr:nth-child(2n), thead {
 .markdown-body pre[class*="language-"] {
     padding: 1.2em;
     margin: .5em 0;
+	color: #000000;
 }
 
 .markdown-body code[class*="language-"],
